@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout {
+	@apply flex flex-col h-[100vh];
+}
+
+.main {
+	@apply flex flex-1;
+	margin: auto;
+	margin-top: 70px;
+}
+
